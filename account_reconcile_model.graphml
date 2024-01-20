@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+	<key for="node" id="nodegraph" yfiles.type="nodegraphics"/>
+	<key for="edge" id="edgegraph" yfiles.type="edgegraphics"/>
+	<graph edgedefault="directed" id="G">
+		<node id="entity0">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="674" width="277.76" x="446" y="4092"/>
+					<y:Fill color="#FF8040" transparent="false"/>
+					<y:BorderStyle color="#FFFFFF" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#FF8040" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="232" x="0" y="4">account_reconcile_model</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="624" width="232" x="2" y="31.66796875">id
+active
+name
+sequence
+company_id
+rule_type
+auto_reconcile
+to_check
+matching_order
+match_text_location_label
+match_text_location_note
+match_text_location_reference
+match_nature
+match_amount
+match_amount_min
+match_amount_max
+match_label
+match_label_param
+match_note
+match_note_param
+match_transaction_type
+match_transaction_type_param
+match_same_currency
+match_total_amount
+match_total_amount_param
+match_partner
+past_months_limit
+decimal_separator
+create_uid
+create_date
+write_uid
+write_date						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity1">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="3194" width="375.48" x="752" y="40"/>
+					<y:Fill color="#000000" transparent="false"/>
+					<y:BorderStyle color="#FFFFFF" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#000000" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="311" x="0" y="4">res_company</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="3144" width="311" x="2" y="31.66796875">id
+name
+partner_id
+currency_id
+sequence
+create_date
+parent_id
+report_header
+report_footer
+logo_web
+email
+phone
+company_registry
+paperformat_id
+external_report_layout_id
+base_onboarding_company_state
+font
+primary_color
+secondary_color
+create_uid
+write_uid
+write_date
+resource_calendar_id
+hr_presence_control_email_amount
+hr_presence_control_ip_list
+partner_gid
+snailmail_color
+snailmail_cover
+snailmail_duplex
+fiscalyear_last_day
+fiscalyear_last_month
+period_lock_date
+fiscalyear_lock_date
+tax_lock_date
+transfer_account_id
+expects_chart_of_accounts
+chart_template_id
+bank_account_code_prefix
+cash_account_code_prefix
+default_cash_difference_income_account_id
+default_cash_difference_expense_account_id
+account_journal_suspense_account_id
+transfer_account_code_prefix
+account_sale_tax_id
+account_purchase_tax_id
+tax_calculation_rounding_method
+currency_exchange_journal_id
+income_currency_exchange_account_id
+expense_currency_exchange_account_id
+anglo_saxon_accounting
+property_stock_account_input_categ_id
+property_stock_account_output_categ_id
+property_stock_valuation_account_id
+tax_exigibility
+account_tax_fiscal_country_id
+incoterm_id
+qr_code
+invoice_is_email
+invoice_is_print
+account_opening_move_id
+account_opening_date
+account_setup_bank_data_state
+account_setup_fy_data_state
+account_setup_coa_state
+account_onboarding_invoice_layout_state
+account_onboarding_create_invoice_state
+account_onboarding_sale_tax_state
+account_invoice_onboarding_state
+account_dashboard_onboarding_state
+invoice_terms
+account_setup_bill_state
+account_default_pos_receivable_account_id
+expense_accrual_account_id
+revenue_accrual_account_id
+automatic_entry_default_journal_id
+tax_cash_basis_journal_id
+account_cash_basis_base_account_id
+payment_acquirer_onboarding_state
+payment_onboarding_payment_method
+invoice_operation_type
+payment_operation_type
+invoice_is_snailmail
+limit_contract
+worked_days_method
+company_cnss
+work_accident
+director
+nomenclature_id
+internal_transit_location_id
+stock_move_email_validation
+stock_mail_confirmation_template_id
+credit_control_tolerance
+credit_policy_id
+inter_ou_clearing_account_id
+ou_is_self_balanced
+account_bank_reconciliation_start
+vat_check_vies
+manufacturing_lead
+po_lead
+po_lock
+po_double_validation
+po_double_validation_amount
+stock_move_sms_validation
+stock_sms_confirmation_template_id
+has_received_warning_stock_sms
+days_to_purchase
+portal_confirmation_sign
+portal_confirmation_pay
+quotation_validity_days
+sale_quotation_onboarding_state
+sale_onboarding_order_confirmation_state
+sale_onboarding_sample_quotation_state
+sale_onboarding_payment_method
+sh_auto_add_followers
+sh_portal_user_create
+sale_order_template_id
+security_lead
+create_new_line_at_contract_line_renew
+lc_journal_id
+social_twitter
+social_facebook
+social_github
+social_linkedin
+social_youtube
+social_instagram
+documents_onboarding_state
+documents_onboarding_storage_state
+documents_onboarding_directory_state
+documents_onboarding_file_state
+java_path
+ks_website_title
+ks_click_edit
+ks_website_title_enable
+ks_company_logo_enable
+ks_header
+ks_footer
+ks_header_content
+ks_footer_content
+ks_menu_bar
+ks_theme_style
+ks_font_style
+ks_font_size
+ks_button_style
+ks_separator_style
+ks_tab_style
+ks_checkbox_style
+ks_radio_button_style
+ks_popup_animation_style
+ks_loaders
+ks_body_background
+ks_body_background_opacity
+ks_app_drawer_background
+ks_app_drawer_background_opacity
+ks_chatter
+ks_theme_color
+ks_body_background_image_enable
+notify_request_allocations_moved0
+name_in_cheque						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity2">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="1474" width="311.52" x="752" y="3304"/>
+					<y:Fill color="#000000" transparent="false"/>
+					<y:BorderStyle color="#FFFFFF" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#000000" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="260" x="0" y="4">res_users</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="1424" width="260" x="2" y="31.66796875">id
+active
+login
+password
+company_id
+partner_id
+create_date
+signature
+action_id
+share
+create_uid
+write_uid
+write_date
+totp_secret
+notification_type
+odoobot_state
+odoobot_failed
+default_operating_unit_id
+sale_team_id
+analytiques_id
+target_sales_won
+target_sales_done
+is_tendor_vendor
+target_sales_invoiced
+karma
+rank_id
+next_rank_id
+website_id
+ks_ir_ui_view
+ks_dark_mode
+ks_auto_dark_mode
+ks_click_edit
+ks_menu_bar
+ks_chatter
+ks_favorite_bar
+ks_favtbar_autohide
+ks_menubar_autohide
+ks_favtbar_position
+ks_list_density
+ks_show_app_name
+ks_user_menu_placement
+ks_checkbox_style
+ks_radio_button_style
+ks_button_style
+ks_loaders
+ks_separator_style
+ks_theme_style
+ks_font_style
+ks_font_size
+ks_popup_animation_style
+ks_tab_style
+ks_body_background
+ks_body_background_opacity
+ks_app_drawer_background
+ks_app_drawer_background_opacity
+ks_body_background_color
+ks_sunrise_hour
+ks_sunrise_min
+ks_sunset_hour
+ks_sunset_min
+ks_theme_color
+ks_body_background_image_enable
+ks_form_page_width
+ks_split_view
+ks_split_vertical_list_width
+ks_split_horizontal_list_height
+is_proosoft_admin
+default_caissier_journal_id
+run_debug
+microsoft_calendar_rtoken
+microsoft_calendar_token
+microsoft_calendar_token_validity						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity3">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="214" width="348.15999999999997" x="40" y="3934"/>
+					<y:Fill color="#000000" transparent="false"/>
+					<y:BorderStyle color="#FFFFFF" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#000000" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="288" x="0" y="4">account_reconcile_model_partner_mapping</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="164" width="288" x="2" y="31.66796875">id
+model_id
+partner_id
+payment_ref_regex
+narration_regex
+create_uid
+create_date
+write_uid
+write_date						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity4">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="354" width="248.32" x="40" y="3510"/>
+					<y:Fill color="#000000" transparent="false"/>
+					<y:BorderStyle color="#FFFFFF" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#000000" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="204" x="0" y="4">account_reconcile_model_line</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="304" width="204" x="2" y="31.66796875">id
+model_id
+company_id
+sequence
+account_id
+journal_id
+label
+amount_type
+force_tax_included
+amount
+amount_string
+analytic_account_id
+create_uid
+create_date
+write_uid
+write_date						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity5">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="74" width="333.15999999999997" x="40" y="4218"/>
+					<y:Fill color="#000000" transparent="false"/>
+					<y:BorderStyle color="#FFFFFF" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#000000" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="273" x="0" y="4">account_reconcile_model_res_partner_rel</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="4" width="273" x="2" y="31.66796875">account_reconcile_model_id
+res_partner_id						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity6">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="74" width="405.12" x="40" y="4362"/>
+					<y:Fill color="#000000" transparent="false"/>
+					<y:BorderStyle color="#FFFFFF" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#000000" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="332" x="0" y="4">account_reconcile_model_res_partner_category_rel</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="4" width="332" x="2" y="31.66796875">account_reconcile_model_id
+res_partner_category_id						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity7">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="74" width="365.92" x="40" y="4506"/>
+					<y:Fill color="#000000" transparent="false"/>
+					<y:BorderStyle color="#FFFFFF" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#000000" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="300" x="0" y="4">account_journal_account_reconcile_model_rel</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="4" width="300" x="2" y="31.66796875">account_reconcile_model_id
+account_journal_id						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<node id="entity8">
+			<data key="nodegraph">
+				<y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+					<y:Geometry height="1734" width="239.56" x="40" y="4650"/>
+					<y:Fill color="#000000" transparent="false"/>
+					<y:BorderStyle color="#FFFFFF" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.name" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="internal" modelPosition="t" backgroundColor="#000000" textColor="#FFFFFF" visible="true" horizontalTextPosition="center" iconTextGap="4" height="22" width="201" x="0" y="4">account_move_line</y:NodeLabel>
+					<y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Courier" fontSize="12" fontStyle="plain" hasLineColor="false" modelName="custom" modelPosition="t" backgroundColor="#FFFFFF" textColor="#000000" visible="true" horizontalTextPosition="center" iconTextGap="4" height="1684" width="201" x="2" y="31.66796875">id
+move_id
+move_name
+date
+ref
+parent_state
+journal_id
+company_id
+company_currency_id
+account_id
+account_root_id
+sequence
+name
+quantity
+price_unit
+discount
+debit
+credit
+balance
+amount_currency
+price_subtotal
+price_total
+reconciled
+blocked
+date_maturity
+currency_id
+partner_id
+product_uom_id
+product_id
+reconcile_model_id
+payment_id
+statement_line_id
+statement_id
+tax_line_id
+tax_group_id
+tax_base_amount
+tax_exigible
+tax_repartition_line_id
+tax_audit
+amount_residual
+amount_residual_currency
+full_reconcile_id
+matching_number
+analytic_account_id
+display_type
+is_rounding_line
+exclude_from_invoice_tab
+create_uid
+create_date
+write_uid
+write_date
+expense_id
+asset_category_id
+asset_start_date
+asset_end_date
+asset_mrr
+asset_profile_id
+asset_id
+vehicle_id
+operating_unit_id
+purchase_line_id
+is_anglo_saxon_line
+balance_debit_credit
+car_id
+related_line
+is_related
+_key
+type
+client_id
+is_merge
+product_client_id
+type_marge
+resource_document_id
+contract_line_id
+is_landed_costs_line
+origin_type
+from_working_capital
+force_operating_unit_id
+sup_currency_id
+rate
+discount_total
+price_total_no_discount
+is_retour_line
+operation_id
+orgin_line_id						<y:LabelModel>
+							<y:ErdAttributesNodeLabelModel/>
+						</y:LabelModel>
+						<y:ModelParameter>
+							<y:ErdAttributesNodeLabelModelParameter/>
+						</y:ModelParameter>
+					</y:NodeLabel>
+				</y:GenericNode>
+			</data>
+		</node>
+		<edge id="edge0-0" source="entity0" target="entity1">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge0-1" source="entity0" target="entity2">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge0-2" source="entity0" target="entity2">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge1-0" source="entity1" target="entity2">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge1-1" source="entity1" target="entity1">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+						<y:Point x="1142" y="1715"/>
+						<y:Point x="1221" y="1675"/>
+						<y:Point x="1221" y="1597"/>
+						<y:Point x="1142" y="1558"/>
+					</y:Path>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge1-2" source="entity1" target="entity2">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge2-0" source="entity2" target="entity1">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge2-1" source="entity2" target="entity2">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+						<y:Point x="1081" y="4106"/>
+						<y:Point x="1147" y="4073"/>
+						<y:Point x="1147" y="4007"/>
+						<y:Point x="1081" y="3974"/>
+					</y:Path>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge2-2" source="entity2" target="entity2">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+						<y:Point x="1081" y="4106"/>
+						<y:Point x="1147" y="4073"/>
+						<y:Point x="1147" y="4007"/>
+						<y:Point x="1081" y="3974"/>
+					</y:Path>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge3-0" source="entity3" target="entity2">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge3-1" source="entity3" target="entity0">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge3-2" source="entity3" target="entity2">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge4-0" source="entity4" target="entity1">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge4-1" source="entity4" target="entity2">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge4-2" source="entity4" target="entity0">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge4-3" source="entity4" target="entity2">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge5-0" source="entity5" target="entity0">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="line" width="1.0"/>
+					<y:Arrows source="none" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge6-0" source="entity6" target="entity0">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="line" width="1.0"/>
+					<y:Arrows source="none" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge7-0" source="entity7" target="entity0">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="line" width="1.0"/>
+					<y:Arrows source="none" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge8-0" source="entity8" target="entity1">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge8-1" source="entity8" target="entity2">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge8-2" source="entity8" target="entity8">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+						<y:Point x="293" y="5567"/>
+						<y:Point x="345" y="5542"/>
+						<y:Point x="345" y="5491"/>
+						<y:Point x="293" y="5465"/>
+					</y:Path>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge8-3" source="entity8" target="entity0">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="edge8-4" source="entity8" target="entity2">
+			<data key="edgegraph">
+				<y:PolyLineEdge>
+					<y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+					<y:Arrows source="white_diamond" target="circle"/>
+					<y:BendStyle smoothed="false"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+	</graph>
+</graphml>
